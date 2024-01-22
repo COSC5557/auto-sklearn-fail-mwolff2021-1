@@ -1,0 +1,2 @@
+/home/mwolff3/.conda/envs/wolff_cancer_ai_env/lib/python3.7/site-packages/autosklearn/data/target_validator.py:188: UserWarning: Fitting transformer with a pandas series which has the dtype category. Inverse transform may not be able preserve dtype when converting to np.ndarray
+  "Fitting transformer with a pandas series which"
