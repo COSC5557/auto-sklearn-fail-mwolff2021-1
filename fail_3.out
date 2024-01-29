@@ -1,0 +1,662 @@
+      fixed_acidity  volatile_acidity  citric_acid  ...    pH  sulphates  alcohol
+0               7.4             0.700         0.00  ...  3.51       0.56      9.4
+1               7.8             0.880         0.00  ...  3.20       0.68      9.8
+2               7.8             0.760         0.04  ...  3.26       0.65      9.8
+3              11.2             0.280         0.56  ...  3.16       0.58      9.8
+4               7.4             0.700         0.00  ...  3.51       0.56      9.4
+...             ...               ...          ...  ...   ...        ...      ...
+1594            6.2             0.600         0.08  ...  3.45       0.58     10.5
+1595            5.9             0.550         0.10  ...  3.52       0.76     11.2
+1596            6.3             0.510         0.13  ...  3.42       0.75     11.0
+1597            5.9             0.645         0.12  ...  3.57       0.71     10.2
+1598            6.0             0.310         0.47  ...  3.39       0.66     11.0
+
+[1599 rows x 11 columns]
+      fixed_acidity  volatile_acidity  citric_acid  ...    pH  sulphates  alcohol
+0               7.4             0.700         0.00  ...  3.51       0.56      9.4
+1               7.8             0.880         0.00  ...  3.20       0.68      9.8
+2               7.8             0.760         0.04  ...  3.26       0.65      9.8
+3              11.2             0.280         0.56  ...  3.16       0.58      9.8
+4               7.4             0.700         0.00  ...  3.51       0.56      9.4
+...             ...               ...          ...  ...   ...        ...      ...
+1594            6.2             0.600         0.08  ...  3.45       0.58     10.5
+1595            5.9             0.550         0.10  ...  3.52       0.76     11.2
+1596            6.3             0.510         0.13  ...  3.42       0.75     11.0
+1597            5.9             0.645         0.12  ...  3.57       0.71     10.2
+1598            6.0             0.310         0.47  ...  3.39       0.66     11.0
+
+[1599 rows x 11 columns]
+582     5
+626     5
+1030    7
+620     5
+490     6
+       ..
+1130    6
+1294    6
+860     5
+1459    7
+1126    6
+Name: class, Length: 1199, dtype: category
+Categories (6, object): ['3', '4', '5', '6', '7', '8']
+1299    3
+899     3
+832     3
+690     3
+1374    3
+517     3
+1469    3
+1478    3
+459     3
+1482    4
+833     4
+45      4
+41      4
+79      4
+1482    4
+1293    4
+872     4
+224     4
+1183    5
+736     5
+920     5
+1052    5
+581     5
+1486    5
+1099    5
+565     5
+880     5
+1460    6
+632     6
+1277    6
+1508    6
+1596    6
+33      6
+343     6
+569     6
+907     6
+947     7
+938     7
+421     7
+346     7
+1005    7
+837     7
+974     7
+1029    7
+1534    7
+1202    8
+390     8
+267     8
+1202    8
+440     8
+267     8
+1061    8
+1403    8
+440     8
+Name: class, dtype: category
+Categories (6, object): ['3', '4', '5', '6', '7', '8']
+0       5
+1       5
+2       7
+3       5
+4       6
+       ..
+3097    8
+3098    8
+3099    8
+3100    8
+3101    8
+Name: class, Length: 3102, dtype: category
+Categories (6, object): ['3', '4', '5', '6', '7', '8']
+0       5
+1       5
+2       7
+3       5
+4       6
+       ..
+3097    8
+3098    8
+3099    8
+3100    8
+3101    8
+Name: class, Length: 3102, dtype: category
+Categories (6, object): ['3', '4', '5', '6', '7', '8']
+['5' '5' '5' '5' '6' '5' '5' '5' '6' '6' '7' '5' '6' '5' '5' '7' '5' '6'
+ '7' '5' '5' '6' '5' '6' '5' '6' '6' '5' '5' '6' '5' '5' '6' '6' '5' '5'
+ '6' '6' '6' '6' '5' '5' '6' '5' '6' '6' '6' '6' '5' '6' '5' '5' '6' '7'
+ '5' '5' '6' '6' '6' '5' '6' '6' '6' '5' '7' '5' '7' '6' '7' '5' '6' '5'
+ '6' '6' '6' '5' '7' '5' '6' '7' '5' '7' '5' '6' '6' '6' '5' '6' '6' '6'
+ '6' '5' '6' '5' '5' '5' '5' '6' '5' '6' '5' '5' '6' '7' '6' '7' '6' '5'
+ '6' '5' '7' '5' '7' '5' '6' '6' '6' '5' '5' '6' '6' '6' '6' '5' '6' '5'
+ '7' '5' '5' '6' '6' '5' '5' '6' '6' '5' '5' '5' '5' '6' '7' '6' '7' '6'
+ '6' '5' '6' '6' '6' '5' '6' '6' '5' '5' '6' '5' '5' '6' '5' '6' '6' '6'
+ '6' '5' '5' '6' '6' '5' '5' '5' '5' '5' '7' '5' '7' '6' '6' '5' '5' '5'
+ '5' '5' '5' '6' '5' '7' '6' '6' '7' '5' '6' '6' '5' '6' '6' '5' '5' '6'
+ '5' '7' '5' '5' '5' '5' '7' '6' '5' '6' '6' '7' '8' '5' '5' '6' '6' '6'
+ '6' '5' '6' '6' '6' '6' '6' '6' '6' '5' '5' '7' '5' '5' '5' '5' '7' '6'
+ '5' '7' '5' '6' '6' '5' '5' '5' '6' '7' '6' '7' '6' '6' '6' '5' '6' '6'
+ '6' '6' '6' '5' '5' '6' '6' '6' '6' '6' '5' '6' '6' '6' '6' '5' '6' '6'
+ '5' '6' '5' '6' '6' '5' '6' '6' '6' '6' '7' '5' '5' '5' '5' '7' '5' '6'
+ '5' '6' '5' '6' '6' '5' '5' '6' '5' '7' '6' '6' '5' '5' '6' '6' '6' '5'
+ '6' '6' '6' '7' '6' '5' '6' '6' '6' '6' '5' '5' '6' '5' '6' '6' '6' '5'
+ '5' '5' '6' '6' '5' '6' '6' '7' '5' '6' '6' '5' '6' '6' '5' '5' '6' '6'
+ '6' '6' '6' '5' '6' '5' '6' '6' '6' '6' '5' '6' '6' '6' '5' '5' '6' '5'
+ '6' '5' '5' '6' '5' '6' '6' '5' '5' '5' '5' '5' '6' '6' '5' '6' '6' '7'
+ '5' '6' '5' '6' '7' '6' '7' '7' '7' '5' '5' '6' '5' '5' '5' '6' '6' '6'
+ '6' '5' '5' '6']
+RF Accuracy 0.67
+[WARNING] [2024-01-26 15:04:46,233:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:47,386:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:48,524:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:49,660:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:50,797:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:51,936:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:52,902:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:54,040:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:55,178:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:56,144:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:57,112:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:58,250:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:04:59,477:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:00,524:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:01,570:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:02,617:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:03,494:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:04,542:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:05,588:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:06,635:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:07,682:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:08,564:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:09,613:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:10,665:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:11,711:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:12,588:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:19,561:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:26,895:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:27,997:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:35,795:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:36,730:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:37,836:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:44,810:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:45,842:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:47,045:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:54,551:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:55,494:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:56,437:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:05:57,553:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:05,297:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:06,343:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:07,557:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:15,279:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:16,233:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:17,364:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:18,324:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:19,456:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:20,419:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:21,381:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:22,345:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:23,486:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:24,463:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:25,432:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:33,331:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:41,299:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:42,274:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:43,417:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:50,987:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:58,704:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:06:59,853:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:07:07,728:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:07:14,801:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:07:22,622:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:07:23,870:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:07:25,120:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:07:32,724:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:07:40,830:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:07:48,353:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:07:56,289:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:04,029:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:11,163:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:18,959:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:25,885:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:33,858:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:35,127:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:42,966:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:44,142:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:45,159:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:46,168:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:54,171:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:08:55,453:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:03,176:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:04,204:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:11,790:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:19,812:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:21,013:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:28,552:Client-EnsembleBuilder] No runs were available to build an ensemble from
+['3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3']
+AutoML Accuracy 0.0025
+['4' '4' '3' '4' '6' '4' '4' '5' '8' '6' '8' '6' '6' '6' '4' '7' '6' '5'
+ '8' '4' '3' '4' '7' '7' '6' '6' '8' '6' '4' '8' '4' '6' '8' '5' '6' '5'
+ '8' '6' '5' '7' '5' '5' '8' '5' '8' '8' '8' '5' '3' '6' '4' '4' '6' '8'
+ '4' '4' '6' '6' '6' '6' '5' '5' '6' '4' '8' '4' '7' '3' '8' '4' '7' '3'
+ '8' '6' '7' '5' '8' '6' '7' '8' '6' '8' '6' '5' '6' '8' '4' '6' '8' '6'
+ '4' '6' '6' '5' '5' '5' '4' '5' '3' '5' '3' '6' '4' '6' '7' '6' '8' '4'
+ '7' '4' '7' '6' '8' '4' '5' '8' '7' '5' '4' '6' '7' '3' '4' '5' '6' '5'
+ '8' '5' '6' '6' '8' '6' '4' '7' '6' '4' '5' '5' '4' '6' '8' '8' '8' '6'
+ '8' '4' '7' '6' '6' '4' '6' '8' '4' '6' '8' '6' '6' '8' '5' '5' '7' '6'
+ '8' '4' '4' '6' '3' '5' '3' '4' '4' '4' '8' '5' '7' '5' '8' '5' '4' '3'
+ '3' '8' '4' '7' '6' '8' '3' '4' '7' '5' '6' '8' '4' '7' '5' '5' '5' '4'
+ '6' '6' '6' '4' '4' '6' '8' '5' '5' '8' '8' '6' '8' '4' '8' '7' '7' '7'
+ '5' '5' '7' '6' '4' '8' '7' '8' '3' '3' '5' '8' '4' '6' '4' '4' '7' '6'
+ '5' '6' '5' '6' '3' '4' '5' '4' '7' '8' '8' '5' '8' '4' '7' '4' '5' '5'
+ '4' '5' '3' '4' '6' '7' '5' '7' '8' '7' '5' '7' '8' '8' '6' '4' '5' '8'
+ '5' '5' '4' '4' '5' '6' '6' '7' '8' '6' '8' '5' '6' '4' '5' '7' '6' '8'
+ '3' '7' '6' '8' '8' '5' '6' '7' '6' '7' '8' '7' '5' '4' '8' '6' '5' '5'
+ '6' '8' '7' '8' '4' '4' '6' '5' '5' '6' '5' '5' '6' '3' '7' '7' '6' '4'
+ '3' '4' '6' '4' '4' '8' '7' '8' '6' '4' '8' '7' '7' '8' '6' '4' '8' '8'
+ '6' '4' '8' '4' '7' '6' '6' '8' '3' '7' '5' '3' '5' '5' '4' '4' '3' '6'
+ '6' '4' '6' '7' '4' '6' '8' '4' '5' '4' '6' '4' '5' '6' '4' '7' '5' '8'
+ '5' '5' '4' '5' '8' '5' '8' '6' '8' '4' '4' '6' '5' '6' '4' '6' '6' '7'
+ '8' '6' '5' '8']
+RF Accuracy 0.2325
+[WARNING] [2024-01-26 15:09:47,482:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:48,560:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:49,443:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:50,508:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:51,564:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:52,445:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:53,499:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:54,552:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:55,617:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:56,672:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:57,570:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:58,626:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:09:59,512:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:00,583:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:01,468:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:02,534:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:03,421:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:04,479:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:05,378:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:06,435:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:07,491:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:08,559:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:09,615:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:10,683:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:11,741:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:12,799:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:19,939:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:27,287:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:28,397:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:36,235:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:37,175:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:38,301:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:45,289:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:46,236:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:47,354:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:54,717:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:55,666:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:56,617:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:10:57,743:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:05,674:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:06,728:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:07,952:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:15,772:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:16,744:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:17,882:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:18,845:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:19,984:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:20,958:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:21,924:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:22,894:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:24,041:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:25,026:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:26,016:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:34,029:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:41,966:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:42,943:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:44,105:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:51,782:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:11:59,423:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:00,577:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:08,606:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:15,780:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:23,572:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:24,732:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:25,893:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:33,720:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:42,014:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:49,404:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:12:57,488:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:05,390:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:12,821:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:20,735:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:28,087:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:35,865:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:37,139:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:45,044:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:46,236:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:47,252:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:48,264:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:56,419:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:13:57,701:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:05,314:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:06,344:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:14,069:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:21,978:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:23,179:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:30,723:Client-EnsembleBuilder] No runs were available to build an ensemble from
+['3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3']
+AutoML Accuracy 0.0025
+['5' '5' '5' '5' '6' '5' '5' '5' '7' '6' '7' '6' '6' '5' '5' '6' '5' '6'
+ '7' '5' '5' '6' '5' '6' '6' '6' '6' '5' '5' '6' '5' '6' '6' '6' '5' '5'
+ '6' '6' '5' '7' '5' '5' '6' '5' '6' '6' '7' '6' '5' '6' '5' '5' '6' '7'
+ '5' '5' '6' '6' '6' '5' '5' '6' '6' '5' '7' '5' '7' '6' '7' '6' '6' '5'
+ '6' '6' '6' '5' '7' '5' '6' '7' '5' '7' '5' '6' '6' '7' '5' '6' '7' '6'
+ '6' '6' '6' '5' '5' '6' '5' '6' '3' '5' '5' '5' '6' '7' '6' '7' '6' '5'
+ '4' '5' '7' '5' '7' '5' '6' '6' '6' '5' '5' '6' '6' '6' '6' '6' '6' '5'
+ '7' '5' '5' '6' '6' '5' '5' '6' '6' '5' '5' '5' '5' '6' '7' '6' '7' '5'
+ '6' '5' '6' '6' '6' '5' '6' '6' '5' '5' '6' '5' '5' '7' '5' '6' '6' '6'
+ '7' '5' '5' '6' '6' '5' '5' '5' '5' '5' '7' '5' '7' '6' '6' '5' '5' '5'
+ '5' '5' '5' '6' '5' '6' '6' '6' '7' '5' '5' '7' '5' '6' '6' '5' '5' '6'
+ '5' '7' '5' '5' '5' '5' '7' '6' '5' '4' '6' '7' '8' '5' '5' '6' '6' '6'
+ '6' '5' '6' '6' '6' '6' '6' '6' '6' '5' '5' '7' '5' '5' '6' '4' '7' '6'
+ '5' '7' '5' '6' '6' '5' '5' '5' '6' '7' '6' '7' '6' '6' '6' '5' '6' '5'
+ '6' '6' '6' '5' '5' '4' '6' '6' '6' '5' '5' '6' '6' '7' '6' '5' '6' '6'
+ '5' '6' '6' '6' '6' '6' '6' '6' '7' '6' '7' '5' '5' '6' '5' '7' '5' '6'
+ '5' '6' '5' '7' '6' '5' '5' '6' '5' '7' '6' '6' '5' '5' '6' '6' '6' '5'
+ '6' '6' '6' '7' '6' '5' '6' '5' '6' '6' '5' '5' '6' '5' '6' '6' '6' '5'
+ '5' '5' '6' '6' '5' '6' '6' '7' '5' '6' '6' '5' '6' '6' '5' '5' '7' '6'
+ '6' '5' '6' '5' '6' '6' '6' '6' '6' '6' '5' '6' '6' '6' '5' '5' '6' '5'
+ '6' '6' '5' '6' '5' '6' '6' '5' '5' '5' '5' '5' '6' '6' '6' '7' '6' '6'
+ '5' '6' '5' '7' '7' '5' '7' '7' '7' '5' '5' '6' '5' '5' '5' '6' '6' '6'
+ '7' '5' '5' '6']
+RF Accuracy 0.655
+[WARNING] [2024-01-26 15:14:50,100:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:51,017:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:52,086:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:53,143:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:54,031:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:55,089:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:56,151:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:57,040:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:58,098:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:14:59,166:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:00,226:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:01,288:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:02,347:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:03,406:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:05,468:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:06,531:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:07,599:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:08,661:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:09,552:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:10,612:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:11,502:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:12,563:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:13,624:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:14,702:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:15,592:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:16,484:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:23,995:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:31,404:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:32,519:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:40,484:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:41,524:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:42,735:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:49,898:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:50,872:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:51,995:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:15:59,650:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:00,702:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:01,755:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:02,981:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:10,693:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:11,681:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:12,812:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:20,678:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:21,639:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:22,778:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:23,743:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:24,896:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:25,864:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:26,834:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:27,807:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:28,956:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:29,946:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:30,921:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:38,892:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:46,713:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:47,695:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:48,846:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:16:56,640:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:04,377:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:05,534:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:13,439:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:20,392:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:28,212:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:29,473:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:30,735:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:38,493:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:46,690:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:17:54,202:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:02,218:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:10,147:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:17,738:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:25,719:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:32,954:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:41,007:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:42,190:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:50,067:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:51,252:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:52,275:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:18:53,292:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:01,545:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:02,737:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:10,240:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:11,279:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:19,092:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:27,289:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:28,497:Client-EnsembleBuilder] No runs were available to build an ensemble from
+['3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3']
+AutoML Accuracy 0.0025
+['5' '5' '5' '5' '6' '5' '5' '4' '7' '7' '7' '4' '6' '5' '5' '7' '5' '6'
+ '7' '5' '5' '6' '5' '6' '6' '6' '7' '5' '5' '6' '5' '5' '6' '6' '5' '5'
+ '6' '6' '5' '7' '5' '5' '6' '5' '5' '6' '7' '5' '5' '4' '5' '5' '4' '7'
+ '5' '5' '6' '6' '6' '5' '5' '6' '6' '5' '7' '5' '7' '6' '7' '5' '6' '5'
+ '6' '6' '6' '5' '6' '5' '6' '7' '5' '7' '5' '6' '6' '8' '5' '6' '7' '4'
+ '6' '6' '5' '5' '5' '5' '5' '7' '3' '6' '4' '5' '6' '7' '6' '7' '6' '5'
+ '6' '5' '7' '5' '7' '5' '5' '6' '6' '5' '5' '6' '6' '6' '6' '6' '6' '5'
+ '7' '5' '5' '6' '6' '3' '5' '7' '4' '5' '5' '5' '5' '6' '7' '6' '7' '4'
+ '5' '5' '6' '6' '6' '5' '6' '7' '6' '5' '6' '5' '6' '7' '5' '6' '6' '5'
+ '7' '5' '6' '6' '6' '4' '5' '5' '5' '4' '7' '5' '7' '6' '6' '5' '5' '5'
+ '4' '7' '5' '6' '5' '6' '6' '6' '7' '5' '4' '7' '5' '6' '6' '5' '4' '6'
+ '5' '7' '5' '5' '5' '5' '7' '6' '5' '4' '6' '7' '8' '5' '5' '8' '6' '6'
+ '6' '5' '6' '6' '6' '6' '6' '7' '6' '3' '5' '7' '5' '5' '5' '5' '7' '7'
+ '5' '7' '5' '6' '6' '5' '5' '4' '6' '7' '5' '7' '6' '6' '8' '5' '6' '6'
+ '5' '6' '5' '5' '5' '4' '6' '7' '7' '6' '5' '6' '6' '7' '3' '5' '6' '6'
+ '5' '6' '5' '6' '6' '5' '6' '8' '7' '6' '7' '3' '6' '5' '5' '7' '5' '6'
+ '5' '6' '5' '8' '8' '5' '5' '7' '5' '7' '7' '6' '5' '5' '7' '6' '6' '5'
+ '6' '6' '6' '7' '6' '6' '6' '6' '6' '6' '5' '5' '7' '5' '6' '6' '6' '4'
+ '3' '5' '7' '6' '5' '6' '6' '7' '5' '6' '6' '5' '6' '6' '5' '5' '7' '7'
+ '5' '5' '6' '5' '6' '5' '6' '6' '6' '6' '5' '6' '6' '6' '5' '5' '4' '5'
+ '7' '6' '4' '6' '5' '6' '6' '5' '5' '5' '5' '4' '6' '4' '6' '7' '6' '6'
+ '5' '6' '5' '7' '7' '5' '7' '7' '7' '5' '5' '6' '5' '4' '5' '6' '6' '6'
+ '7' '5' '6' '7']
+RF Accuracy 0.63
+[WARNING] [2024-01-26 15:19:48,335:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:49,253:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:50,316:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:51,376:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:52,265:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:53,327:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:54,217:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:55,279:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:56,341:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:57,401:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:58,464:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:19:59,526:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:00,588:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:01,648:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:02,710:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:03,773:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:04,838:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:05,903:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:06,796:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:07,861:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:08,755:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:09,821:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:10,885:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:11,949:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:12,843:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:13,739:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:21,140:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:28,612:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:29,727:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:37,387:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:38,332:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:39,450:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:46,486:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:47,531:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:48,747:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:56,510:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:57,465:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:58,421:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:20:59,552:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:07,289:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:08,249:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:09,380:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:17,116:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:18,081:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:19,222:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:20,189:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:21,334:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:22,304:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:23,276:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:24,250:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:25,400:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:26,390:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:27,371:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:35,338:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:43,117:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:44,101:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:45,256:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:21:53,116:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:00,916:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:02,076:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:09,989:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:17,188:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:25,112:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:26,373:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:27,636:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:35,376:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:43,576:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:51,208:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:22:59,148:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:07,071:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:14,559:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:22,481:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:29,623:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:37,580:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:38,859:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:46,756:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:47,941:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:48,962:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:49,981:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:58,059:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:23:59,347:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:24:06,860:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:24:07,900:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:24:15,630:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:24:23,722:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:24:24,930:Client-EnsembleBuilder] No runs were available to build an ensemble from
+[WARNING] [2024-01-26 15:24:32,660:Client-EnsembleBuilder] No runs were available to build an ensemble from
+['3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3' '3'
+ '3' '3' '3' '3']
+AutoML Accuracy 0.0025

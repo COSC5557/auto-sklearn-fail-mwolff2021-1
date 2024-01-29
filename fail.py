@@ -3,6 +3,7 @@ from sklearn.datasets import fetch_openml
 import sklearn.metrics
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import OneHotEncoder
+import autosklearn
 
 #https://www.analyticsvidhya.com/blog/2020/07/10-techniques-to-deal-with-class-imbalance-in-machine-learning/
 #https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
@@ -30,15 +31,20 @@ import imblearn
 from imblearn.under_sampling import RandomUnderSampler
 from imblearn.over_sampling import RandomOverSampler, SMOTE
 
+print(y_train)
+
 rus = RandomUnderSampler(random_state=42, replacement=True)# fit predictor and target variable
 x_rus, y_rus = rus.fit_resample(X_train, y_train)
+print(y_rus)
 
 ros = RandomOverSampler(random_state=42)
 x_ros, y_ros = ros.fit_resample(X_train, y_train)
+print(y_ros)
 
 smote = SMOTE()
 
 x_smote, y_smote = smote.fit_resample(X_train, y_train)
+print(y_smote)
 
 x_train_datasets = [X_train, x_rus, x_ros, x_smote]
 y_train_datasets = [y_train, y_rus, y_ros, y_smote]
@@ -55,7 +61,8 @@ def compare_classifiers(X_train, y_train, X_test, y_test):
     
     from autosklearn.classification import AutoSklearnClassifier
     
-    automl = AutoSklearnClassifier(time_left_for_this_task=300)
+    automl = AutoSklearnClassifier(time_left_for_this_task=300, metric = autosklearn.metrics.balanced_accuracy, resampling_strategy="cv",
+    resampling_strategy_arguments={'folds': 5})
     automl.fit(X_train, y_train)
     y_hat = automl.predict(X_test)
     print(y_hat)
