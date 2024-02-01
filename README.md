@@ -11,6 +11,13 @@ fix it.
 
 ## References
 I discussed this problem with another student (Russell Todd) and we collaborated on different approaches to the problem, but did not share code with each other/pair program. 
+
+Links: 
+https://automl.github.io/auto-sklearn/master/faq.html#faq
+https://automl.github.io/auto-sklearn/master/manual.html#manual
+https://automl.github.io/auto-sklearn/master/examples/40_advanced/example_pandas_train_test.html#sphx-glr-examples-40-advanced-example-pandas-train-test-py
+https://stackoverflow.com/questions/26097916/convert-pandas-series-to-dataframe
+https://automl.github.io/auto-sklearn/master/examples/40_advanced/example_get_pipeline_components.html#sphx-glr-examples-40-advanced-example-get-pipeline-components-py
 https://github.com/automl/auto-sklearn/issues/633
 https://stackoverflow.com/questions/56549270/importerror-cannot-import-name-multioutputmixin-from-sklearn-base
 https://community.anaconda.cloud/t/cannot-import-name-onetoonefeaturemixin-from-sklearn-base/47735
