@@ -75,9 +75,13 @@ def compare_classifiers(X_train, y_train, X_test, y_test):
         grid=True,
     )
     plt.show()
-    sprint_statistics()
-    show_models()
-    automl.leaderboard()
+    print(automl.sprint_statistics())
+    print(automl.show_models(), indent = 4) 
+    for run_key in automl.automl_.runhistory_.data:
+        print("#########")
+        print(run_key)
+        print(automl.automl_.runhistory_.data[run_key])
+    print(automl.leaderboard())
     print(pd.DataFrame(automl.cv_results_))
     #end original code
 
