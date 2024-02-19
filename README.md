@@ -13,6 +13,12 @@ fix it.
 I discussed this problem with another student (Russell Todd) and we collaborated on different approaches to the problem, but did not share code with each other/pair program. 
 
 Links: 
+
+https://www.analyticsvidhya.com/blog/2020/07/10-techniques-to-deal-with-class-imbalance-in-machine-learning/
+https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/
+https://datagy.io/python-zip-lists/
+https://community.anaconda.cloud/t/cannot-import-name-onetoonefeaturemixin-from-sklearn-base/47735
+https://stackoverflow.com/questions/56549270/importerror-cannot-import-name-multioutputmixin-from-sklearn-base
 https://automl.github.io/auto-sklearn/master/examples/40_advanced/example_get_pipeline_components.html#sphx-glr-examples-40-advanced-example-get-pipeline-components-py
 https://automl.github.io/auto-sklearn/master/faq.html#faq
 https://automl.github.io/auto-sklearn/master/manual.html#manual
